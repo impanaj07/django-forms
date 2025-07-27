@@ -1,0 +1,56 @@
+fee
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+.env
+.env.*
+
+# Migration files (optional — but better to track them)
+# */migrations/*.py
+*/migrations/__pycache__/
+
+# VS Code and other IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# pip environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS & Linux
+.DS_Store
+*.swp
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Test coverage
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter
+.ipynb_checkpoints/
